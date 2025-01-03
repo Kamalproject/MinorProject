@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>  
+        <div class="nav">
+            <div class="leftnav">
+                <h1>World Travel</h1>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <span>               
+                <input type="search" id="search" placeholder="Enter Destination">                
+                <button onclick="searchContent">Search</button>
+                <button onclick="resetContent">Reset</button>
+            </span>           
+        </div><br>
+        <div id="contact">Contact Us
+            <p id="number">Phone Number: +1234567890</p>
+            <p id="number">Fax-Number: +1234567890</p>
+            <p id="number">Telephone Number: +1234567890</p>
+            <p id="number">Email:<a href="#">abcd123@gmail.com</a></p>
+        </div>
+        <div id="contactinformation">        
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="input" placeholder="Enter your Name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="input" placeholder="Enter Your Email" required><br><br>
+                <label for="message">Message</label><br>
+                <textarea id="msg" placeholder="Enter Your thoughts" rows="5"></textarea><br><br>
+                <input type="submit" id="btnsubmit">
+            </form>
+        </div>
+    </header>
+    <script src="java.js"></script>
+</body>
+</html>
